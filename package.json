@@ -1,0 +1,40 @@
+{
+  "name": "ts-search",
+  "version": "1.0.0",
+  "description": "Library of pre-defined types and helper functions that are common to searching functionality.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "test:ci": "jest --coverage",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/millbj92/ts-search.git"
+  },
+  "keywords": [
+    "typescript",
+    "search",
+    "query",
+    "filter",
+    "sort"
+  ],
+  "author": "Brandon Miller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/millbj92/ts-search/issues"
+  },
+  "homepage": "https://github.com/millbj92/ts-search#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-typescript": "^7.16.7",
+    "@types/jest": "^27.4.0",
+    "babel-jest": "^27.5.0",
+    "jest": "^27.5.0",
+    "ts-node": "^10.4.0",
+    "tsconfig-paths": "^3.12.0",
+    "typescript": "^4.5.5"
+  }
+}
